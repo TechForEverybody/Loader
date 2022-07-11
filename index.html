@@ -19,12 +19,19 @@
         height: 100vh;
     }
     div{
-        border-top: 5px dashed greenyellow;
-        border-left: 5px dashed greenyellow;
+        /* border-top: 5px dashed greenyellow;
+        border-left: 5px dashed greenyellow; */
+        border: 5px dashed red;
         height: 100px;
         width: 100px;
         border-radius:50%;
-        animation: rotate_the_loader .5s infinite  linear;
+        animation: rotate_the_loader 1s infinite  linear;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    img{
+        width: 50px;
     }
     @keyframes rotate_the_loader {
         0%{
@@ -39,7 +46,7 @@
 </style>
 <body>
     <div>
-        
+        <img src="https://cdn.pixabay.com/photo/2014/12/22/00/07/tree-576847_960_720.png" alt="">
     </div>
 
 
